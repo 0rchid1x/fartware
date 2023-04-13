@@ -117,15 +117,31 @@ switch8.event:Connect(function(bool)
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Blissful4992/ESPs/main/2D%20Box%20ESP/ESP.lua"))()
 end)
 
-
+--Misc Settings
 
 local tab3 = window1.new({
     text = "Misc",
     color = Color3.new(0,0,0),
 })
 
-local label1 = tab3.new("label", {
-    text = "made by adio#7330",
-    color = Color3.new(255, 255, 255),
-
+local button1 = tab3.new("button", {
+    text = "Boost FPS",
 })
+button1.event:Connect(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Blissful4992/Miscellaneous/main/FPSBooster.lua"))()
+end)
+
+local button2 = tab3.new("button", {
+    text = "Enable Anti-Kick",
+})
+button2.event:Connect(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Stefanuk12/ROBLOX/master/Universal/AntiKick.lua"))()
+end)
+
+local button3 = tab3.new("button", {
+    text = "Bypasser(High Ban Risk)",
+})
+button3.event:Connect(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Stefanuk12/ROBLOX/master/Universal/Word%20Bypass/Main.lua"))()
+end)
+
