@@ -2,7 +2,7 @@
 
 local engine = loadstring(game:HttpGet("https://raw.githubusercontent.com/Singularity5490/rbimgui-2/main/rbimgui-2.lua"))()
 local window1 = engine.new({
-    text = "fartware",
+    text = "Onyx Client",
     size = UDim2.new(500, 200),
     color = Color3.new(0,0,0),
 })
@@ -144,4 +144,3 @@ local button3 = tab3.new("button", {
 button3.event:Connect(function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Stefanuk12/ROBLOX/master/Universal/Word%20Bypass/Main.lua"))()
 end)
-
