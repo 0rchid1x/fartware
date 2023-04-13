@@ -1,0 +1,94 @@
+--loadstring(game:HttpGet("https://pastebin.com/raw/8FmVUSTu"))()
+
+local engine = loadstring(game:HttpGet("https://raw.githubusercontent.com/Singularity5490/rbimgui-2/main/rbimgui-2.lua"))()
+local window1 = engine.new({
+    text = "fartware",
+    size = UDim2.new(500, 200),
+    color = Color3.new(0,0,0),
+})
+
+window1.open()
+
+local tab1 = window1.new({
+    text = "Aim",
+    color = Color3.new(0,0,0),
+})
+
+
+local label1 = tab1.new("label", {
+    text = "May Not Work for Every Game",
+    color = Color3.new(255, 255, 255),
+})
+
+local label1 = tab1.new("label", {
+    text = "turn on anti-recoil when gun is out",
+    color = Color3.new(255, 255, 255),
+
+})
+
+local switch1 = tab1.new("switch", {
+    text = "Anti Recoil";
+})
+
+
+switch1.set(false)
+switch1.event:Connect(function(bool)
+    loadstring(game:HttpGet("https://pastebin.com/raw/8FmVUSTu"))()
+end)
+
+local switch2 = tab1.new("switch", {
+    text = "Aimbot";
+})
+
+switch2.set(false)
+switch2.event:Connect(function(bool)
+    loadstring(game:HttpGet("https://pastebin.com/raw/CwQcEnEd"))()
+end)
+
+local switch3 = tab1.new("switch", {
+    text = "Anti Aim";
+})
+
+switch3.set(false)
+switch3.event:Connect(function(bool)
+    loadstring(game:HttpGet("https://pastebin.com/raw/2DbeVu2s"))()
+end)
+
+
+--ESP / WALL HACK SECTION
+
+local tab2 = window1.new({
+    text = "ESP",
+    color = Color3.new(0,0,0),
+})
+
+
+local switch3 = tab2.new("switch", {
+    text = "Chams";
+})
+
+switch3.set(false)
+switch3.event:Connect(function(bool)
+    loadstring(game:HttpGet("https://pastebin.com/raw/1v5c6zxJ"))()
+end)
+
+local switch4 = tab2.new("switch", {
+    text = "Skeleton ESP";
+})
+
+switch4.set(false)
+switch4.event:Connect(function(bool)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Blissful4992/ESPs/main/SkeletonESP.lua"))()
+end)
+
+
+local tab3 = window1.new({
+    text = "Misc",
+    color = Color3.new(0,0,0),
+})
+
+local label1 = tab3.new("label", {
+    text = "made by adio#7330",
+    color = Color3.new(255, 255, 255),
+
+})
