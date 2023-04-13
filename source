@@ -81,6 +81,43 @@ switch4.event:Connect(function(bool)
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Blissful4992/ESPs/main/SkeletonESP.lua"))()
 end)
 
+local switch5 = tab2.new("switch", {
+    text = "Radar Cheat";
+})
+
+switch5.set(false)
+switch5.event:Connect(function(bool)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Blissful4992/ESPs/main/PlayerRadar.lua"))()
+end)
+
+local switch6 = tab2.new("switch", {
+    text = "Tracers";
+})
+
+switch6.set(false)
+switch6.event:Connect(function(bool)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Blissful4992/ESPs/main/View%20Tracer%20ESP.lua"))()
+end)
+
+local switch7 = tab2.new("switch", {
+    text = "ESP w/ Healthbar";
+})
+
+switch7.set(false)
+switch7.event:Connect(function(bool)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Blissful4992/ESPs/main/2D%20Box%20ESP/ESP%20%2B%20Health%20Bars.lua"))()
+end)
+
+local switch8 = tab2.new("switch", {
+    text = "Normal ESP";
+})
+
+switch8.set(false)
+switch8.event:Connect(function(bool)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Blissful4992/ESPs/main/2D%20Box%20ESP/ESP.lua"))()
+end)
+
+
 
 local tab3 = window1.new({
     text = "Misc",
