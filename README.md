@@ -3,7 +3,7 @@ Onyx Client
 🔹Description🔹
 Onyx Client is a universal roblox cheat.
 
-⭐Features⭐
+🔹Features🔹
 
   Aim Features
 -Aimbot
@@ -13,7 +13,7 @@ Onyx Client is a universal roblox cheat.
   ESP Features
 -Box ESP w/Health bar
 -View tracer
--Radaer Cheat
+-Radar Cheat
 -2D Box ESP
 -Chams ESP
 -Skeleton ESP
