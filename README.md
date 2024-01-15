@@ -1,5 +1,11 @@
 Onyx Client 
 
+
+
+❌DISCONTINUED❌
+Roblox has patched all executors so this script no longer functions. 
+
+
 🔹Description🔹
 Onyx Client is a universal roblox cheat.
 
